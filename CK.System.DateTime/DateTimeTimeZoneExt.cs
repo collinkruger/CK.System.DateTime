@@ -18,7 +18,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToAfghanistanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AfghanistanStandardTime);
+        public static DateTime ToAfghanistanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AfghanistanStandardTime);
 
         static readonly TimeZoneInfo _AlaskanStandardTime;
         ///<summary>
@@ -30,7 +30,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -09:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAlaskanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AlaskanStandardTime);
+        public static DateTime ToAlaskanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AlaskanStandardTime);
 
         static readonly TimeZoneInfo _AleutianStandardTime;
         ///<summary>
@@ -42,7 +42,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -10:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAleutianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AleutianStandardTime);
+        public static DateTime ToAleutianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AleutianStandardTime);
 
         static readonly TimeZoneInfo _AltaiStandardTime;
         ///<summary>
@@ -54,7 +54,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAltaiStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AltaiStandardTime);
+        public static DateTime ToAltaiStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AltaiStandardTime);
 
         static readonly TimeZoneInfo _ArabStandardTime;
         ///<summary>
@@ -66,7 +66,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToArabStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabStandardTime);
+        public static DateTime ToArabStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabStandardTime);
 
         static readonly TimeZoneInfo _ArabianStandardTime;
         ///<summary>
@@ -78,7 +78,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToArabianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabianStandardTime);
+        public static DateTime ToArabianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabianStandardTime);
 
         static readonly TimeZoneInfo _ArabicStandardTime;
         ///<summary>
@@ -90,7 +90,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToArabicStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabicStandardTime);
+        public static DateTime ToArabicStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArabicStandardTime);
 
         static readonly TimeZoneInfo _ArgentinaStandardTime;
         ///<summary>
@@ -102,7 +102,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToArgentinaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArgentinaStandardTime);
+        public static DateTime ToArgentinaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ArgentinaStandardTime);
 
         static readonly TimeZoneInfo _AstrakhanStandardTime;
         ///<summary>
@@ -114,7 +114,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAstrakhanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AstrakhanStandardTime);
+        public static DateTime ToAstrakhanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AstrakhanStandardTime);
 
         static readonly TimeZoneInfo _AtlanticStandardTime;
         ///<summary>
@@ -126,7 +126,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAtlanticStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AtlanticStandardTime);
+        public static DateTime ToAtlanticStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AtlanticStandardTime);
 
         static readonly TimeZoneInfo _AUSCentralStandardTime;
         ///<summary>
@@ -138,7 +138,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToAUSCentralStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AUSCentralStandardTime);
+        public static DateTime ToAUSCentralStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AUSCentralStandardTime);
 
         static readonly TimeZoneInfo _AusCentralWStandardTime;
         ///<summary>
@@ -150,7 +150,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:45:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToAusCentralWStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AusCentralWStandardTime);
+        public static DateTime ToAusCentralWStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AusCentralWStandardTime);
 
         static readonly TimeZoneInfo _AUSEasternStandardTime;
         ///<summary>
@@ -162,7 +162,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAUSEasternStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AUSEasternStandardTime);
+        public static DateTime ToAUSEasternStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AUSEasternStandardTime);
 
         static readonly TimeZoneInfo _AzerbaijanStandardTime;
         ///<summary>
@@ -174,7 +174,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAzerbaijanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AzerbaijanStandardTime);
+        public static DateTime ToAzerbaijanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AzerbaijanStandardTime);
 
         static readonly TimeZoneInfo _AzoresStandardTime;
         ///<summary>
@@ -186,7 +186,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToAzoresStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AzoresStandardTime);
+        public static DateTime ToAzoresStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _AzoresStandardTime);
 
         static readonly TimeZoneInfo _BahiaStandardTime;
         ///<summary>
@@ -198,7 +198,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToBahiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BahiaStandardTime);
+        public static DateTime ToBahiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BahiaStandardTime);
 
         static readonly TimeZoneInfo _BangladeshStandardTime;
         ///<summary>
@@ -210,7 +210,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 06:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToBangladeshStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BangladeshStandardTime);
+        public static DateTime ToBangladeshStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BangladeshStandardTime);
 
         static readonly TimeZoneInfo _BelarusStandardTime;
         ///<summary>
@@ -222,7 +222,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToBelarusStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BelarusStandardTime);
+        public static DateTime ToBelarusStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BelarusStandardTime);
 
         static readonly TimeZoneInfo _BougainvilleStandardTime;
         ///<summary>
@@ -234,7 +234,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToBougainvilleStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BougainvilleStandardTime);
+        public static DateTime ToBougainvilleStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _BougainvilleStandardTime);
 
         static readonly TimeZoneInfo _CanadaCentralStandardTime;
         ///<summary>
@@ -246,7 +246,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -06:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToCanadaCentralStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CanadaCentralStandardTime);
+        public static DateTime ToCanadaCentralStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CanadaCentralStandardTime);
 
         static readonly TimeZoneInfo _CapeVerdeStandardTime;
         ///<summary>
@@ -258,7 +258,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -01:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToCapeVerdeStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CapeVerdeStandardTime);
+        public static DateTime ToCapeVerdeStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CapeVerdeStandardTime);
 
         static readonly TimeZoneInfo _CaucasusStandardTime;
         ///<summary>
@@ -270,7 +270,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCaucasusStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CaucasusStandardTime);
+        public static DateTime ToCaucasusStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CaucasusStandardTime);
 
         static readonly TimeZoneInfo _CenAustraliaStandardTime;
         ///<summary>
@@ -282,7 +282,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:30:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCenAustraliaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CenAustraliaStandardTime);
+        public static DateTime ToCenAustraliaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CenAustraliaStandardTime);
 
         static readonly TimeZoneInfo _CentralAmericaStandardTime;
         ///<summary>
@@ -294,7 +294,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -06:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToCentralAmericaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralAmericaStandardTime);
+        public static DateTime ToCentralAmericaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralAmericaStandardTime);
 
         static readonly TimeZoneInfo _CentralAsiaStandardTime;
         ///<summary>
@@ -306,7 +306,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 06:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToCentralAsiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralAsiaStandardTime);
+        public static DateTime ToCentralAsiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralAsiaStandardTime);
 
         static readonly TimeZoneInfo _CentralBrazilianStandardTime;
         ///<summary>
@@ -318,7 +318,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCentralBrazilianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralBrazilianStandardTime);
+        public static DateTime ToCentralBrazilianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralBrazilianStandardTime);
 
         static readonly TimeZoneInfo _CentralEuropeStandardTime;
         ///<summary>
@@ -330,7 +330,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCentralEuropeStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralEuropeStandardTime);
+        public static DateTime ToCentralEuropeStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralEuropeStandardTime);
 
         static readonly TimeZoneInfo _CentralEuropeanStandardTime;
         ///<summary>
@@ -342,7 +342,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCentralEuropeanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralEuropeanStandardTime);
+        public static DateTime ToCentralEuropeanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralEuropeanStandardTime);
 
         static readonly TimeZoneInfo _CentralPacificStandardTime;
         ///<summary>
@@ -354,7 +354,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToCentralPacificStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralPacificStandardTime);
+        public static DateTime ToCentralPacificStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralPacificStandardTime);
 
         static readonly TimeZoneInfo _CentralStandardTime;
         ///<summary>
@@ -366,7 +366,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -06:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCentralStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralStandardTime);
+        public static DateTime ToCentralStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralStandardTime);
 
         static readonly TimeZoneInfo _CentralStandardTimeInMexico;
         ///<summary>
@@ -378,7 +378,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -06:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCentralStandardTimeInMexicoFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralStandardTimeInMexico);
+        public static DateTime ToCentralStandardTimeInMexicoFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CentralStandardTimeInMexico);
 
         static readonly TimeZoneInfo _ChathamIslandsStandardTime;
         ///<summary>
@@ -390,7 +390,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:45:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToChathamIslandsStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ChathamIslandsStandardTime);
+        public static DateTime ToChathamIslandsStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ChathamIslandsStandardTime);
 
         static readonly TimeZoneInfo _ChinaStandardTime;
         ///<summary>
@@ -402,7 +402,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToChinaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ChinaStandardTime);
+        public static DateTime ToChinaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ChinaStandardTime);
 
         static readonly TimeZoneInfo _CubaStandardTime;
         ///<summary>
@@ -414,7 +414,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToCubaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CubaStandardTime);
+        public static DateTime ToCubaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _CubaStandardTime);
 
         static readonly TimeZoneInfo _DatelineStandardTime;
         ///<summary>
@@ -426,7 +426,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -12:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToDatelineStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _DatelineStandardTime);
+        public static DateTime ToDatelineStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _DatelineStandardTime);
 
         static readonly TimeZoneInfo _EAfricaStandardTime;
         ///<summary>
@@ -438,7 +438,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToEAfricaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EAfricaStandardTime);
+        public static DateTime ToEAfricaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EAfricaStandardTime);
 
         static readonly TimeZoneInfo _EAustraliaStandardTime;
         ///<summary>
@@ -450,7 +450,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToEAustraliaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EAustraliaStandardTime);
+        public static DateTime ToEAustraliaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EAustraliaStandardTime);
 
         static readonly TimeZoneInfo _EEuropeStandardTime;
         ///<summary>
@@ -462,7 +462,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEEuropeStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EEuropeStandardTime);
+        public static DateTime ToEEuropeStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EEuropeStandardTime);
 
         static readonly TimeZoneInfo _ESouthAmericaStandardTime;
         ///<summary>
@@ -474,7 +474,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToESouthAmericaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ESouthAmericaStandardTime);
+        public static DateTime ToESouthAmericaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ESouthAmericaStandardTime);
 
         static readonly TimeZoneInfo _EasterIslandStandardTime;
         ///<summary>
@@ -486,7 +486,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -06:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEasterIslandStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasterIslandStandardTime);
+        public static DateTime ToEasterIslandStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasterIslandStandardTime);
 
         static readonly TimeZoneInfo _EasternStandardTime;
         ///<summary>
@@ -498,7 +498,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEasternStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasternStandardTime);
+        public static DateTime ToEasternStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasternStandardTime);
 
         static readonly TimeZoneInfo _EasternStandardTimeInMexico;
         ///<summary>
@@ -510,7 +510,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEasternStandardTimeInMexicoFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasternStandardTimeInMexico);
+        public static DateTime ToEasternStandardTimeInMexicoFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EasternStandardTimeInMexico);
 
         static readonly TimeZoneInfo _EgyptStandardTime;
         ///<summary>
@@ -522,7 +522,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEgyptStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EgyptStandardTime);
+        public static DateTime ToEgyptStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EgyptStandardTime);
 
         static readonly TimeZoneInfo _EkaterinburgStandardTime;
         ///<summary>
@@ -534,7 +534,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToEkaterinburgStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EkaterinburgStandardTime);
+        public static DateTime ToEkaterinburgStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _EkaterinburgStandardTime);
 
         static readonly TimeZoneInfo _FijiStandardTime;
         ///<summary>
@@ -546,7 +546,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToFijiStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _FijiStandardTime);
+        public static DateTime ToFijiStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _FijiStandardTime);
 
         static readonly TimeZoneInfo _FLEStandardTime;
         ///<summary>
@@ -558,7 +558,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToFLEStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _FLEStandardTime);
+        public static DateTime ToFLEStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _FLEStandardTime);
 
         static readonly TimeZoneInfo _GeorgianStandardTime;
         ///<summary>
@@ -570,7 +570,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToGeorgianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GeorgianStandardTime);
+        public static DateTime ToGeorgianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GeorgianStandardTime);
 
         static readonly TimeZoneInfo _GMTStandardTime;
         ///<summary>
@@ -582,7 +582,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 00:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToGMTStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GMTStandardTime);
+        public static DateTime ToGMTStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GMTStandardTime);
 
         static readonly TimeZoneInfo _GreenlandStandardTime;
         ///<summary>
@@ -594,7 +594,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToGreenlandStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GreenlandStandardTime);
+        public static DateTime ToGreenlandStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GreenlandStandardTime);
 
         static readonly TimeZoneInfo _GreenwichStandardTime;
         ///<summary>
@@ -606,7 +606,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 00:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToGreenwichStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GreenwichStandardTime);
+        public static DateTime ToGreenwichStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GreenwichStandardTime);
 
         static readonly TimeZoneInfo _GTBStandardTime;
         ///<summary>
@@ -618,7 +618,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToGTBStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GTBStandardTime);
+        public static DateTime ToGTBStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _GTBStandardTime);
 
         static readonly TimeZoneInfo _HaitiStandardTime;
         ///<summary>
@@ -630,7 +630,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToHaitiStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _HaitiStandardTime);
+        public static DateTime ToHaitiStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _HaitiStandardTime);
 
         static readonly TimeZoneInfo _HawaiianStandardTime;
         ///<summary>
@@ -642,7 +642,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -10:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToHawaiianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _HawaiianStandardTime);
+        public static DateTime ToHawaiianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _HawaiianStandardTime);
 
         static readonly TimeZoneInfo _IndiaStandardTime;
         ///<summary>
@@ -654,7 +654,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToIndiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IndiaStandardTime);
+        public static DateTime ToIndiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IndiaStandardTime);
 
         static readonly TimeZoneInfo _IranStandardTime;
         ///<summary>
@@ -666,7 +666,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:30:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToIranStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IranStandardTime);
+        public static DateTime ToIranStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IranStandardTime);
 
         static readonly TimeZoneInfo _IsraelStandardTime;
         ///<summary>
@@ -678,7 +678,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToIsraelStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IsraelStandardTime);
+        public static DateTime ToIsraelStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _IsraelStandardTime);
 
         static readonly TimeZoneInfo _JordanStandardTime;
         ///<summary>
@@ -690,7 +690,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToJordanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _JordanStandardTime);
+        public static DateTime ToJordanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _JordanStandardTime);
 
         static readonly TimeZoneInfo _KaliningradStandardTime;
         ///<summary>
@@ -702,7 +702,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToKaliningradStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KaliningradStandardTime);
+        public static DateTime ToKaliningradStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KaliningradStandardTime);
 
         static readonly TimeZoneInfo _KamchatkaStandardTime;
         ///<summary>
@@ -714,7 +714,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToKamchatkaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KamchatkaStandardTime);
+        public static DateTime ToKamchatkaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KamchatkaStandardTime);
 
         static readonly TimeZoneInfo _KoreaStandardTime;
         ///<summary>
@@ -726,7 +726,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToKoreaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KoreaStandardTime);
+        public static DateTime ToKoreaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _KoreaStandardTime);
 
         static readonly TimeZoneInfo _LibyaStandardTime;
         ///<summary>
@@ -738,7 +738,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToLibyaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LibyaStandardTime);
+        public static DateTime ToLibyaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LibyaStandardTime);
 
         static readonly TimeZoneInfo _LineIslandsStandardTime;
         ///<summary>
@@ -750,7 +750,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 14:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToLineIslandsStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LineIslandsStandardTime);
+        public static DateTime ToLineIslandsStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LineIslandsStandardTime);
 
         static readonly TimeZoneInfo _LordHoweStandardTime;
         ///<summary>
@@ -762,7 +762,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:30:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToLordHoweStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LordHoweStandardTime);
+        public static DateTime ToLordHoweStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _LordHoweStandardTime);
 
         static readonly TimeZoneInfo _MagadanStandardTime;
         ///<summary>
@@ -774,7 +774,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMagadanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MagadanStandardTime);
+        public static DateTime ToMagadanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MagadanStandardTime);
 
         static readonly TimeZoneInfo _MarquesasStandardTime;
         ///<summary>
@@ -786,7 +786,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -09:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToMarquesasStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MarquesasStandardTime);
+        public static DateTime ToMarquesasStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MarquesasStandardTime);
 
         static readonly TimeZoneInfo _MauritiusStandardTime;
         ///<summary>
@@ -798,7 +798,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMauritiusStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MauritiusStandardTime);
+        public static DateTime ToMauritiusStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MauritiusStandardTime);
 
         static readonly TimeZoneInfo _MidMinusAtlanticStandardTime;
         ///<summary>
@@ -810,7 +810,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMidMinusAtlanticStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MidMinusAtlanticStandardTime);
+        public static DateTime ToMidMinusAtlanticStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MidMinusAtlanticStandardTime);
 
         static readonly TimeZoneInfo _MiddleEastStandardTime;
         ///<summary>
@@ -822,7 +822,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMiddleEastStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MiddleEastStandardTime);
+        public static DateTime ToMiddleEastStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MiddleEastStandardTime);
 
         static readonly TimeZoneInfo _MontevideoStandardTime;
         ///<summary>
@@ -834,7 +834,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMontevideoStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MontevideoStandardTime);
+        public static DateTime ToMontevideoStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MontevideoStandardTime);
 
         static readonly TimeZoneInfo _MoroccoStandardTime;
         ///<summary>
@@ -846,7 +846,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 00:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMoroccoStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MoroccoStandardTime);
+        public static DateTime ToMoroccoStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MoroccoStandardTime);
 
         static readonly TimeZoneInfo _MountainStandardTime;
         ///<summary>
@@ -858,7 +858,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMountainStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MountainStandardTime);
+        public static DateTime ToMountainStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MountainStandardTime);
 
         static readonly TimeZoneInfo _MountainStandardTimeInMexico;
         ///<summary>
@@ -870,7 +870,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToMountainStandardTimeInMexicoFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MountainStandardTimeInMexico);
+        public static DateTime ToMountainStandardTimeInMexicoFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MountainStandardTimeInMexico);
 
         static readonly TimeZoneInfo _MyanmarStandardTime;
         ///<summary>
@@ -882,7 +882,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 06:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToMyanmarStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MyanmarStandardTime);
+        public static DateTime ToMyanmarStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _MyanmarStandardTime);
 
         static readonly TimeZoneInfo _NCentralAsiaStandardTime;
         ///<summary>
@@ -894,7 +894,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNCentralAsiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NCentralAsiaStandardTime);
+        public static DateTime ToNCentralAsiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NCentralAsiaStandardTime);
 
         static readonly TimeZoneInfo _NamibiaStandardTime;
         ///<summary>
@@ -906,7 +906,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNamibiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NamibiaStandardTime);
+        public static DateTime ToNamibiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NamibiaStandardTime);
 
         static readonly TimeZoneInfo _NepalStandardTime;
         ///<summary>
@@ -918,7 +918,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:45:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToNepalStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NepalStandardTime);
+        public static DateTime ToNepalStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NepalStandardTime);
 
         static readonly TimeZoneInfo _NewZealandStandardTime;
         ///<summary>
@@ -930,7 +930,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNewZealandStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NewZealandStandardTime);
+        public static DateTime ToNewZealandStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NewZealandStandardTime);
 
         static readonly TimeZoneInfo _NewfoundlandStandardTime;
         ///<summary>
@@ -942,7 +942,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:30:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNewfoundlandStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NewfoundlandStandardTime);
+        public static DateTime ToNewfoundlandStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NewfoundlandStandardTime);
 
         static readonly TimeZoneInfo _NorfolkStandardTime;
         ///<summary>
@@ -954,7 +954,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNorfolkStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorfolkStandardTime);
+        public static DateTime ToNorfolkStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorfolkStandardTime);
 
         static readonly TimeZoneInfo _NorthAsiaEastStandardTime;
         ///<summary>
@@ -966,7 +966,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNorthAsiaEastStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthAsiaEastStandardTime);
+        public static DateTime ToNorthAsiaEastStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthAsiaEastStandardTime);
 
         static readonly TimeZoneInfo _NorthAsiaStandardTime;
         ///<summary>
@@ -978,7 +978,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNorthAsiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthAsiaStandardTime);
+        public static DateTime ToNorthAsiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthAsiaStandardTime);
 
         static readonly TimeZoneInfo _NorthKoreaStandardTime;
         ///<summary>
@@ -990,7 +990,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:30:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToNorthKoreaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthKoreaStandardTime);
+        public static DateTime ToNorthKoreaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _NorthKoreaStandardTime);
 
         static readonly TimeZoneInfo _OmskStandardTime;
         ///<summary>
@@ -1002,7 +1002,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 06:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToOmskStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _OmskStandardTime);
+        public static DateTime ToOmskStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _OmskStandardTime);
 
         static readonly TimeZoneInfo _PacificSAStandardTime;
         ///<summary>
@@ -1014,7 +1014,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToPacificSAStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificSAStandardTime);
+        public static DateTime ToPacificSAStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificSAStandardTime);
 
         static readonly TimeZoneInfo _PacificStandardTime;
         ///<summary>
@@ -1026,7 +1026,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -08:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToPacificStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificStandardTime);
+        public static DateTime ToPacificStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificStandardTime);
 
         static readonly TimeZoneInfo _PacificStandardTimeInMexico;
         ///<summary>
@@ -1038,7 +1038,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -08:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToPacificStandardTimeInMexicoFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificStandardTimeInMexico);
+        public static DateTime ToPacificStandardTimeInMexicoFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PacificStandardTimeInMexico);
 
         static readonly TimeZoneInfo _PakistanStandardTime;
         ///<summary>
@@ -1050,7 +1050,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToPakistanStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PakistanStandardTime);
+        public static DateTime ToPakistanStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _PakistanStandardTime);
 
         static readonly TimeZoneInfo _ParaguayStandardTime;
         ///<summary>
@@ -1062,7 +1062,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToParaguayStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ParaguayStandardTime);
+        public static DateTime ToParaguayStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _ParaguayStandardTime);
 
         static readonly TimeZoneInfo _RomanceStandardTime;
         ///<summary>
@@ -1074,7 +1074,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToRomanceStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RomanceStandardTime);
+        public static DateTime ToRomanceStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RomanceStandardTime);
 
         static readonly TimeZoneInfo _RussiaTimeZone10;
         ///<summary>
@@ -1086,7 +1086,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToRussiaTimeZone10FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone10);
+        public static DateTime ToRussiaTimeZone10FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone10);
 
         static readonly TimeZoneInfo _RussiaTimeZone11;
         ///<summary>
@@ -1098,7 +1098,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToRussiaTimeZone11FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone11);
+        public static DateTime ToRussiaTimeZone11FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone11);
 
         static readonly TimeZoneInfo _RussiaTimeZone3;
         ///<summary>
@@ -1110,7 +1110,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToRussiaTimeZone3FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone3);
+        public static DateTime ToRussiaTimeZone3FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussiaTimeZone3);
 
         static readonly TimeZoneInfo _RussianStandardTime;
         ///<summary>
@@ -1122,7 +1122,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToRussianStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussianStandardTime);
+        public static DateTime ToRussianStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _RussianStandardTime);
 
         static readonly TimeZoneInfo _SAEasternStandardTime;
         ///<summary>
@@ -1134,7 +1134,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSAEasternStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAEasternStandardTime);
+        public static DateTime ToSAEasternStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAEasternStandardTime);
 
         static readonly TimeZoneInfo _SAPacificStandardTime;
         ///<summary>
@@ -1146,7 +1146,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSAPacificStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAPacificStandardTime);
+        public static DateTime ToSAPacificStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAPacificStandardTime);
 
         static readonly TimeZoneInfo _SAWesternStandardTime;
         ///<summary>
@@ -1158,7 +1158,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSAWesternStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAWesternStandardTime);
+        public static DateTime ToSAWesternStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SAWesternStandardTime);
 
         static readonly TimeZoneInfo _SaintPierreStandardTime;
         ///<summary>
@@ -1170,7 +1170,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToSaintPierreStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SaintPierreStandardTime);
+        public static DateTime ToSaintPierreStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SaintPierreStandardTime);
 
         static readonly TimeZoneInfo _SakhalinStandardTime;
         ///<summary>
@@ -1182,7 +1182,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 11:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToSakhalinStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SakhalinStandardTime);
+        public static DateTime ToSakhalinStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SakhalinStandardTime);
 
         static readonly TimeZoneInfo _SamoaStandardTime;
         ///<summary>
@@ -1194,7 +1194,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 13:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToSamoaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SamoaStandardTime);
+        public static DateTime ToSamoaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SamoaStandardTime);
 
         static readonly TimeZoneInfo _SEAsiaStandardTime;
         ///<summary>
@@ -1206,7 +1206,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSEAsiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SEAsiaStandardTime);
+        public static DateTime ToSEAsiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SEAsiaStandardTime);
 
         static readonly TimeZoneInfo _SingaporeStandardTime;
         ///<summary>
@@ -1218,7 +1218,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSingaporeStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SingaporeStandardTime);
+        public static DateTime ToSingaporeStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SingaporeStandardTime);
 
         static readonly TimeZoneInfo _SouthAfricaStandardTime;
         ///<summary>
@@ -1230,7 +1230,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSouthAfricaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SouthAfricaStandardTime);
+        public static DateTime ToSouthAfricaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SouthAfricaStandardTime);
 
         static readonly TimeZoneInfo _SriLankaStandardTime;
         ///<summary>
@@ -1242,7 +1242,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:30:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToSriLankaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SriLankaStandardTime);
+        public static DateTime ToSriLankaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SriLankaStandardTime);
 
         static readonly TimeZoneInfo _SyriaStandardTime;
         ///<summary>
@@ -1254,7 +1254,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToSyriaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SyriaStandardTime);
+        public static DateTime ToSyriaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _SyriaStandardTime);
 
         static readonly TimeZoneInfo _TaipeiStandardTime;
         ///<summary>
@@ -1266,7 +1266,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToTaipeiStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TaipeiStandardTime);
+        public static DateTime ToTaipeiStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TaipeiStandardTime);
 
         static readonly TimeZoneInfo _TasmaniaStandardTime;
         ///<summary>
@@ -1278,7 +1278,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTasmaniaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TasmaniaStandardTime);
+        public static DateTime ToTasmaniaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TasmaniaStandardTime);
 
         static readonly TimeZoneInfo _TocantinsStandardTime;
         ///<summary>
@@ -1290,7 +1290,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTocantinsStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TocantinsStandardTime);
+        public static DateTime ToTocantinsStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TocantinsStandardTime);
 
         static readonly TimeZoneInfo _TokyoStandardTime;
         ///<summary>
@@ -1302,7 +1302,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToTokyoStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TokyoStandardTime);
+        public static DateTime ToTokyoStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TokyoStandardTime);
 
         static readonly TimeZoneInfo _TomskStandardTime;
         ///<summary>
@@ -1314,7 +1314,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTomskStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TomskStandardTime);
+        public static DateTime ToTomskStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TomskStandardTime);
 
         static readonly TimeZoneInfo _TongaStandardTime;
         ///<summary>
@@ -1326,7 +1326,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 13:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToTongaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TongaStandardTime);
+        public static DateTime ToTongaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TongaStandardTime);
 
         static readonly TimeZoneInfo _TransbaikalStandardTime;
         ///<summary>
@@ -1338,7 +1338,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTransbaikalStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TransbaikalStandardTime);
+        public static DateTime ToTransbaikalStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TransbaikalStandardTime);
 
         static readonly TimeZoneInfo _TurkeyStandardTime;
         ///<summary>
@@ -1350,7 +1350,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 03:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTurkeyStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TurkeyStandardTime);
+        public static DateTime ToTurkeyStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TurkeyStandardTime);
 
         static readonly TimeZoneInfo _TurksAndCaicosStandardTime;
         ///<summary>
@@ -1362,7 +1362,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToTurksAndCaicosStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TurksAndCaicosStandardTime);
+        public static DateTime ToTurksAndCaicosStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _TurksAndCaicosStandardTime);
 
         static readonly TimeZoneInfo _UlaanbaatarStandardTime;
         ///<summary>
@@ -1374,7 +1374,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToUlaanbaatarStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UlaanbaatarStandardTime);
+        public static DateTime ToUlaanbaatarStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UlaanbaatarStandardTime);
 
         static readonly TimeZoneInfo _USEasternStandardTime;
         ///<summary>
@@ -1386,7 +1386,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -05:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToUSEasternStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _USEasternStandardTime);
+        public static DateTime ToUSEasternStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _USEasternStandardTime);
 
         static readonly TimeZoneInfo _USMountainStandardTime;
         ///<summary>
@@ -1398,7 +1398,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -07:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUSMountainStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _USMountainStandardTime);
+        public static DateTime ToUSMountainStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _USMountainStandardTime);
 
         static readonly TimeZoneInfo _UTC;
         ///<summary>
@@ -1410,7 +1410,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 00:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTC);
+        public static DateTime ToUTCFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTC);
 
         static readonly TimeZoneInfo _UTCPlus12;
         ///<summary>
@@ -1422,7 +1422,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 12:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCPlus12FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCPlus12);
+        public static DateTime ToUTCPlus12FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCPlus12);
 
         static readonly TimeZoneInfo _UTCMinus02;
         ///<summary>
@@ -1434,7 +1434,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -02:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCMinus02FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus02);
+        public static DateTime ToUTCMinus02FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus02);
 
         static readonly TimeZoneInfo _UTCMinus08;
         ///<summary>
@@ -1446,7 +1446,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -08:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCMinus08FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus08);
+        public static DateTime ToUTCMinus08FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus08);
 
         static readonly TimeZoneInfo _UTCMinus09;
         ///<summary>
@@ -1458,7 +1458,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -09:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCMinus09FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus09);
+        public static DateTime ToUTCMinus09FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus09);
 
         static readonly TimeZoneInfo _UTCMinus11;
         ///<summary>
@@ -1470,7 +1470,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -11:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToUTCMinus11FromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus11);
+        public static DateTime ToUTCMinus11FromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _UTCMinus11);
 
         static readonly TimeZoneInfo _VenezuelaStandardTime;
         ///<summary>
@@ -1482,7 +1482,7 @@ namespace CK.System
         ///<para>Base Utc Offset: -04:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToVenezuelaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _VenezuelaStandardTime);
+        public static DateTime ToVenezuelaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _VenezuelaStandardTime);
 
         static readonly TimeZoneInfo _VladivostokStandardTime;
         ///<summary>
@@ -1494,7 +1494,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToVladivostokStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _VladivostokStandardTime);
+        public static DateTime ToVladivostokStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _VladivostokStandardTime);
 
         static readonly TimeZoneInfo _WAustraliaStandardTime;
         ///<summary>
@@ -1506,7 +1506,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 08:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToWAustraliaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WAustraliaStandardTime);
+        public static DateTime ToWAustraliaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WAustraliaStandardTime);
 
         static readonly TimeZoneInfo _WCentralAfricaStandardTime;
         ///<summary>
@@ -1518,7 +1518,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToWCentralAfricaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WCentralAfricaStandardTime);
+        public static DateTime ToWCentralAfricaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WCentralAfricaStandardTime);
 
         static readonly TimeZoneInfo _WEuropeStandardTime;
         ///<summary>
@@ -1530,7 +1530,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 01:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToWEuropeStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WEuropeStandardTime);
+        public static DateTime ToWEuropeStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WEuropeStandardTime);
 
         static readonly TimeZoneInfo _WMongoliaStandardTime;
         ///<summary>
@@ -1542,7 +1542,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 07:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToWMongoliaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WMongoliaStandardTime);
+        public static DateTime ToWMongoliaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WMongoliaStandardTime);
 
         static readonly TimeZoneInfo _WestAsiaStandardTime;
         ///<summary>
@@ -1554,7 +1554,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 05:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToWestAsiaStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestAsiaStandardTime);
+        public static DateTime ToWestAsiaStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestAsiaStandardTime);
 
         static readonly TimeZoneInfo _WestBankStandardTime;
         ///<summary>
@@ -1566,7 +1566,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 02:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToWestBankStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestBankStandardTime);
+        public static DateTime ToWestBankStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestBankStandardTime);
 
         static readonly TimeZoneInfo _WestPacificStandardTime;
         ///<summary>
@@ -1578,7 +1578,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 10:00:00</para>
         ///<para>Supports Daylight Savings Time: False</para>
         ///</summary>
-        public static DateTime ToWestPacificStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestPacificStandardTime);
+        public static DateTime ToWestPacificStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _WestPacificStandardTime);
 
         static readonly TimeZoneInfo _YakutskStandardTime;
         ///<summary>
@@ -1590,7 +1590,7 @@ namespace CK.System
         ///<para>Base Utc Offset: 09:00:00</para>
         ///<para>Supports Daylight Savings Time: True</para>
         ///</summary>
-        public static DateTime ToYakutskStandardTimeFromUTC(DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _YakutskStandardTime);
+        public static DateTime ToYakutskStandardTimeFromUTC(this DateTime dateTimeUTC) => TimeZoneInfo.ConvertTimeFromUtc(dateTimeUTC, _YakutskStandardTime);
 
         static DateTimeTimeZoneExt()
         {
